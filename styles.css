@@ -1,1 +1,52 @@
 /* Write your CSS here! */
+/* element selectors */
+body {
+    margin: 8px;
+    display: block;
+    background-color: bisque;
+}
+
+h2 {
+
+}
+
+
+
+/* .class selectors */
+.funParagraph{
+    color: green;
+    border-style: groove;
+    /* background-color: rgb(75, 68, 68); */
+}
+
+
+
+
+/* #Id selectors */
+#mainHeading{
+    text-align: center;
+    background-color:rgb(182, 174, 163);
+    /* margin: 90px; */
+    border-style: outset;
+    user-select: none;
+    color: red;
+    /* width: ; */
+    
+}
+
+#testP{
+    color: black;
+}
+
+#toc{
+    background-color: rgb(182, 174, 163);
+    /* margin-right: 9px;
+    padding-inline-start: 9px; */
+    border: 9px;
+    border-style: outset;
+    border-radius: 8px;
+    /* margin-right: 530px; */
+    width: 175px;
+    /* height: 175px; */
+    
+}

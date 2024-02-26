@@ -2,11 +2,28 @@
 <html>
   <head>
     <title>Micah McAdoo — Resume</title>
+    <script>
+    window.addEventListener("load", ()=>{
+      let nameChange = document.getElementById("mainHeading");
+      nameChange.addEventListener("click", ()=>{
+        if(nameChange.innerHTML == "Micah McAdoo"){
+          nameChange.innerHTML = "Μιχαίας Μάκαντου";
+        } else if (nameChange.innerHTML == "Μιχαίας Μάκαντου"){
+          nameChange.innerHTML = "מיכה" || nameChange.innerHTML == "Who am I?";
+        } else {
+          nameChange.innerHTML = "Micah McAdoo";
+        }
+        nameChange.style.color = "black";
+      });
+    });
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <header>
-      <h1>Table of Contents:</h1>
-      <nav>
+      <h1 id="mainHeading">Who am I?</h1>
+      <h2>Table of Contents:</h2>
+      <nav id="toc">
         <ul>
           <li>
             <a href="#workExperience">Work Experience</a>
@@ -143,7 +160,7 @@
           <!--Goals-->
           <a name="goals"></a>
           <h2>Goals</h2>
-          <p>
+          <p id="testP" class="funParagraph">
             I desire to enter a career in web development in order to be able to
             provide for my growing family and to develop web applications to
             assist in teaching Ancient Greek and Hebrew. My dream project is to
