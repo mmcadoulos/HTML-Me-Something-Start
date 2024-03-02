@@ -8,6 +8,6 @@ window.addEventListener("load", ()=>{
       } else {
         nameChange.innerHTML = "Micah McAdoo";
       }
-      nameChange.style.color = "black";
+      nameChange.style.color = "rgb(34, 34, 111)";
     });
   });
