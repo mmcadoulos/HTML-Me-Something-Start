@@ -3,11 +3,16 @@
 body {
     margin: 8px;
     display: block;
-    background-color: bisque;
+    background-color: rgba(198, 225, 238, 0.827);
 }
 
 h2 {
 
+}
+
+main {
+    margin-left: 175px;
+    padding: 0px 10px;
 }
 
 
@@ -16,6 +21,7 @@ h2 {
 .funParagraph{
     color: green;
     border-style: groove;
+    padding: 20px;
     /* background-color: rgb(75, 68, 68); */
 }
 
@@ -25,12 +31,14 @@ h2 {
 /* #Id selectors */
 #mainHeading{
     text-align: center;
-    background-color:rgb(182, 174, 163);
+    background-color:rgb(137, 176, 208);
     /* margin: 90px; */
     border-style: outset;
+    /* border-radius: 8px; */
     user-select: none;
     color: red;
     /* width: ; */
+    
     
 }
 
@@ -39,14 +47,21 @@ h2 {
 }
 
 #toc{
-    background-color: rgb(182, 174, 163);
-    /* margin-right: 9px;
-    padding-inline-start: 9px; */
-    border: 9px;
-    border-style: outset;
-    border-radius: 8px;
-    /* margin-right: 530px; */
-    width: 175px;
-    /* height: 175px; */
+    background-color: rgb(137, 176, 208);
+    text-align: center;
+    position: fixed;
+    /* height: 100%; */
+    padding-bottom: 6%;
+    font-size: large;
     
+    /* border: 9px; */
+    border-style: outset;
+    /* border-radius: 8px; */
+    width: 175px;
+    
+    
+}
+
+#tocHeader{
+    text-align: center;
 }

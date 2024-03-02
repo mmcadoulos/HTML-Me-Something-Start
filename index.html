@@ -2,47 +2,35 @@
 <html>
   <head>
     <title>Micah McAdoo — Resume</title>
-    <script>
-    window.addEventListener("load", ()=>{
-      let nameChange = document.getElementById("mainHeading");
-      nameChange.addEventListener("click", ()=>{
-        if(nameChange.innerHTML == "Micah McAdoo"){
-          nameChange.innerHTML = "Μιχαίας Μάκαντου";
-        } else if (nameChange.innerHTML == "Μιχαίας Μάκαντου"){
-          nameChange.innerHTML = "מיכה" || nameChange.innerHTML == "Who am I?";
-        } else {
-          nameChange.innerHTML = "Micah McAdoo";
-        }
-        nameChange.style.color = "black";
-      });
-    });
-    </script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1 id="mainHeading">Who am I?</h1>
-      <h2>Table of Contents:</h2>
+      <h1 id="mainHeading">Micah McAdoo</h1>
+
       <nav id="toc">
-        <ul>
-          <li>
+        <h2 id="tocHeader">Contents</h2>
+        <!-- <ul>
+          <li> -->
             <a href="#workExperience">Work Experience</a>
-          </li>
-          <li>
+          <!-- </li>
+          <li> -->
             <a href="#education">Education</a>
-          </li>
-          <li>
+          <!-- </li>
+          <li> -->
             <a href="#aboutMe">About Me</a>
-          </li>
-          <li>
+          <!-- </li>
+          <li> -->
             <a href="#goals">Goals</a>
-          </li>
-        </ul>
+          <!-- </li>
+        </ul> -->
       </nav>
     </header>
-    <!-- <p>Χαίρετε πάντες. Πῶς ἔχεις σήμερον;</p>
-    <button type="button" onclick="alert('Χαῖρε καὶ σύ! Καλῶς ἔχω!')">Χαῖρετε</button> -->
+    
     <main>
+      <!-- <p>Χαίρετε πάντες. Πῶς ἔχεις σήμερον;</p>
+    <button type="button" onclick="alert('Χαῖρε καὶ σύ! Καλῶς ἔχω!')">Χαίρετε</button> -->
       <article>
         <section>
           <a name="workExperience"></a>
@@ -69,7 +57,7 @@
             </li>
             <li>
               <h2>Healthcare Components Group</h2>
-              <h3>Jne 2022-Current</h3>
+              <h3>June 2022-Current</h3>
               <p>
                 I am a laser cutter machine operator cutting components to be
                 assembled into bending sections for medical scopes. When needed,
@@ -97,6 +85,7 @@
                 LaunchCode:
                 <a
                   href="https://www.launchcode.org/course-catalog/web-development-java"
+                  target="_blank"
                   >Web Development - Java</a
                 >, in progress.
               </p>
