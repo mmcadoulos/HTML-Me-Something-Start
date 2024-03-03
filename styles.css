@@ -5,13 +5,23 @@ body {
   display: block;
   /* background-color: rgba(198, 225, 238, 0.827); */
   /* background-color: rgb(238, 246, 251); */
+  background-color: rgb(137, 176, 208);
 }
 
 main {
   margin-left: 175px;
   padding: 0px 10px;
   /* align-items: center; */
-  max-width: 80%;
+  max-width: 60%;
+}
+
+article{
+  background-color: white;
+  /* margin: 8px; */
+  border-style: outset;
+  border-radius: 8px;
+  padding: 8px;
+  border-color: rgb(34, 34, 111);
 }
 
 h2 {
@@ -31,11 +41,19 @@ img {
   /* height: 250px; */
   /* width: 100%; */
   max-height: 250px;
-  max-width: 100%;
-  border-style:ridge;
+  max-width: 95%;
+  border-style: ridge;
   border-radius: 8px;
   color: rgb(34, 34, 111);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+figcaption{
+  font-style: italic;
+}
+
 
 /* .class selectors */
 .funParagraph {
@@ -43,12 +61,22 @@ img {
   border-style: groove;
   padding: 20px;
   background-color: rgba(86, 112, 182, 0.201);
+  font-size: large;
+}
+
+.aboutMeContent{
+  text-align: center;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 /* #Id selectors */
 #mainHeading {
+  cursor: pointer;
   text-align: center;
-  background-color: rgb(137, 176, 208);
+  /* background-color: rgb(137, 176, 208); */
+  background-color: white;
   /* margin: 90px; */
   border-style: outset;
   border-radius: 8px;
@@ -64,7 +92,8 @@ img {
 }
 
 #toc {
-  background-color: rgb(137, 176, 208);
+  /* background-color: rgb(137, 176, 208); */
+  background-color: white;
   color: rgb(34, 34, 111);
   text-align: center;
   position: fixed;
@@ -82,3 +111,7 @@ img {
 #tocHeader {
   text-align: center;
 }
+
+/* #goalBox{
+  font-size: large;
+} */
